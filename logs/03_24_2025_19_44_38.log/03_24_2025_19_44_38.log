@@ -1,0 +1,29 @@
+[2025-03-24 19:44:46,994],1025 httpx - INFO -HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2025-03-24 19:44:47,011],107 dagshub - INFO -Accessing as Manish3451
+[2025-03-24 19:44:47,449],1025 httpx - INFO -HTTP Request: GET https://dagshub.com/api/v1/repos/Manish3451/network_security_system "HTTP/1.1 200 OK"
+[2025-03-24 19:44:47,866],1025 httpx - INFO -HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2025-03-24 19:44:47,871],107 dagshub - INFO -Initialized MLflow to track repo "Manish3451/network_security_system"
+[2025-03-24 19:44:47,873],107 dagshub - INFO -Repository Manish3451/network_security_system initialized!
+[2025-03-24 19:44:51,265],20 root - INFO -Initiate the data ingestion
+[2025-03-24 19:44:55,982],65 root - INFO -Performed train test split on the dataframe
+[2025-03-24 19:44:55,983],67 root - INFO -Exited split_data_as_train_test method of Data_Ingestion class
+[2025-03-24 19:44:55,983],75 root - INFO -Exporting train and test file path.
+[2025-03-24 19:44:56,152],84 root - INFO -Exported train and test file path.
+[2025-03-24 19:44:56,153],22 root - INFO -Data Initiation Completed
+[2025-03-24 19:44:56,162],26 root - INFO -Initiate the data Validation
+[2025-03-24 19:44:56,276],32 root - INFO -Required number of columns:2
+[2025-03-24 19:44:56,276],33 root - INFO -Data frame has columns:31
+[2025-03-24 19:44:56,277],32 root - INFO -Required number of columns:2
+[2025-03-24 19:44:56,277],33 root - INFO -Data frame has columns:31
+[2025-03-24 19:44:56,614],28 root - INFO -data Validation Completed
+[2025-03-24 19:44:56,615],31 root - INFO -data Transformation started
+[2025-03-24 19:44:56,615],63 root - INFO -Entered initiate_data_transformation method of DataTransformation class
+[2025-03-24 19:44:56,615],65 root - INFO -Starting data transformation
+[2025-03-24 19:44:56,732],48 root - INFO -Entered get_data_trnasformer_object method of Trnasformation class
+[2025-03-24 19:44:56,732],53 root - INFO -Initialise KNNImputer with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[2025-03-24 19:44:56,762],47 root - INFO -Entered the save_object method of MainUtils class
+[2025-03-24 19:44:56,768],51 root - INFO -Exited the save_object method of MainUtils class
+[2025-03-24 19:44:56,768],47 root - INFO -Entered the save_object method of MainUtils class
+[2025-03-24 19:44:56,775],51 root - INFO -Exited the save_object method of MainUtils class
+[2025-03-24 19:44:56,781],35 root - INFO -data Transformation completed
+[2025-03-24 19:44:56,781],37 root - INFO -Model Training sstared
